@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A full-stack YouTube clone built with React and Node.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src/index.js"
+  
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/viveknarawade/youtube-clone/issues"
   },
-  "homepage": "https://github.com/viveknarawade/youtube-clone#readme"
+  "homepage": "https://github.com/viveknarawade/youtube-clone#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
 }
